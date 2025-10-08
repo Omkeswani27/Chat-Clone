@@ -1,0 +1,75 @@
+/* Animation for fade-in */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 40px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  /* Gradient Text */
+  .text-gradient {
+    background: linear-gradient(90deg, #ff6f61, #ff8c42, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect on the Login link */
+  .hover-effect:hover {
+    color: #ddd !important;
+  }
+  
+  /* Footer styling with social media icons */
+  footer a {
+    transition: transform 0.3s ease;
+  }
+  
+  footer a:hover {
+    transform: scale(1.2);
+  }
+  
+  footer i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .hover-link:hover {
+    color: #000 !important;
+    transition: color 0.3s ease;
+  }
+
+  .hover-link {
+    transition: color 0.3s;
+  }
+  
+  .hover-link:hover {
+    color: #ffcc00; /* Change this color to whatever you prefer */
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  .custom-navbar {
+    background-color: #343a40; /* Replace with your desired color */
+  }
+  
+  .custom-footer {
+    background-color: #343a40; /* Replace with your desired color */
+  }
+  
